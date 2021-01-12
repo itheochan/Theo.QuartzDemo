@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schedulers>
+  <!--同步-->
+  <group name="MQConsumer">
+    <job allowConcurrent="false" api="" name="EMRSourceFileImportConsumer" dllName="DRGBrief.Business"
+         className="DRGBrief.Business.IEMRSourceFileBll" methodName="Consume" cron="0 0/1 * * * ?" />
+  </group>
+</schedulers>

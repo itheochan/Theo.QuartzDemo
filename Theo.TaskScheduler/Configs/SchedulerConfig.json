@@ -1,0 +1,27 @@
+{
+  "GroupList": [
+    {
+      "Name": "JobGroup",
+      "JobList": [
+        {
+          "Disabled": false,
+          "Desc": "发邮件服务",
+          "Name": "SendMail",
+          "Cron": "5/10 * * * * ? *",
+          "DllName": "Theo.Business",
+          "ClassName": "Theo.Business.IProviderDemo",
+          "MethodName": "AutoSendMail"
+        },
+        {
+          "Disabled": false,
+          "Desc": "发短信服务",
+          "Name": "SendSMS",
+          "Cron": "0/10 * * * * ? *",
+          "DllName": "Theo.Business",
+          "ClassName": "Theo.Business.IProviderDemo",
+          "MethodName": "AutoSendSMS"
+        }
+      ]
+    }
+  ]
+}
