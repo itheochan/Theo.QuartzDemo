@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theo.TaskScheduler", "Theo.TaskScheduler\Theo.TaskScheduler.csproj", "{BF897CF2-E8A0-44F0-883E-3CB862CFF05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theo.TaskScheduler", "Theo.TaskScheduler\Theo.TaskScheduler.csproj", "{BF897CF2-E8A0-44F0-883E-3CB862CFF05E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theo.Business", "Theo.Business\Theo.Business.csproj", "{B3FA03E8-D814-48B7-ACDA-18686D6E5C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theo.Business", "Theo.Business\Theo.Business.csproj", "{B3FA03E8-D814-48B7-ACDA-18686D6E5C54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{687112E5-662C-43D3-9BDC-0A3D4A2015D2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
